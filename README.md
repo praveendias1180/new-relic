@@ -22,4 +22,8 @@ https://www.logicmonitor.com/blog/monitoring-and-o11y-why-you-need-both
 - Monitoring only tells you that a problem happened. Ideally, observability tells you what caused that problem.
 - Observability identifies unknowns, while monitoring aims at reporting known errors
 
-> "Metrics tell you whether you have a problem, but they don’t tell you the root cause. Common examples would be: a CPU at 100%, a disk that’s full, or a network link that’s dropping packets.""
+> "Metrics tell you whether you have a problem, but they don’t tell you the root cause. Common examples would be: a CPU at 100%, a disk that’s full, or a network link that’s dropping packets."
+
+- Observability is more about the relationship between data than the data itself.
+- Rather than merely logging numbers, observability helps determine the app’s health by providing insights into the applications’ future performance.
+- Observability is a fundamental property of an application and its supporting infrastructure.
