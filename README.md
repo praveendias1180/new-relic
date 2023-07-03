@@ -61,3 +61,37 @@ SELECT max(duration) FROM Transaction WHERE appName = 'FoodMe'
 SELECT count(*) FROM Transaction FACET http.statusText
 SELECT count(*) FROM Transaction WHERE httpResponseCode != '200'
 ```
+
+# Custom Instrumentation
+
+## Server Side
+
+```
+SELECT count(*) FROM Transaction FACET restaurant
+```
+
+```
+newrelic.addCustomAttributes({
+    'customer': order.deliverTo.name,
+    'restaurant': order.restaurant.name,
+    'itemCount': itemCount,
+    'orderTotal': orderTotal
+});
+```
+
+## Client Side
+
+```
+SELECT count(*) FROM PageAction FACET restaurant,item,qty
+```
+
+```
+self.items.forEach(
+    function(item) {
+    newrelic.addPageAction('orderItem', { 
+        restaurant: self.restaurant.name, 
+        item: item.name,
+        qty: item.qty
+    });
+});
+```
