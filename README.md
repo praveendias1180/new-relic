@@ -98,8 +98,15 @@ self.items.forEach(
 
 # NR Queries
 
+https://docs.newrelic.com/docs/data-apis/understand-data/event-data/default-events-reported-new-relic-produ
+
 ```
 SELECT count(*) FROM PageView WHERE appName ='O11yFoodMe' FACET countryCode,city SINCE 1 day ago 
 ```
 
 ![](hello-nr.png)
+
+# Scripted Browser Monitors
+
+https://docs.newrelic.com/docs/synthetics/synthetic-monitoring/scripting-monitors/introduction-scripted-browser-monitors/
+
