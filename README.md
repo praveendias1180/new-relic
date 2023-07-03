@@ -27,3 +27,9 @@ https://www.logicmonitor.com/blog/monitoring-and-o11y-why-you-need-both
 - Observability is more about the relationship between data than the data itself.
 - Rather than merely logging numbers, observability helps determine the app’s health by providing insights into the applications’ future performance.
 - Observability is a fundamental property of an application and its supporting infrastructure.
+
+# CHAOS ENGINEERING
+
+https://principlesofchaos.org/
+
+Chaos Engineering is the discipline of experimenting on a system in order to build confidence in the system’s capability to withstand turbulent conditions in production.
