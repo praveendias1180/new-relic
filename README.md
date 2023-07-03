@@ -33,3 +33,9 @@ https://www.logicmonitor.com/blog/monitoring-and-o11y-why-you-need-both
 https://principlesofchaos.org/
 
 Chaos Engineering is the discipline of experimenting on a system in order to build confidence in the system’s capability to withstand turbulent conditions in production.
+
+# Myths and Historical Accidents
+
+https://www.youtube.com/watch?v=pLPMAAOSxSE
+
+![](ted-youtube.png)
