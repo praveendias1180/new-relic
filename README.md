@@ -54,3 +54,10 @@ SELECT count(*) FROM Transaction where appName = 'O11yFoodMe'
 
 ![](nrql.png)
 
+```
+SELECT uniqueCount(session) from PageView FACET city,countryCode SINCE 1 week ago
+SELECT average(duration) from Transaction FACET name SINCE 1 day ago TIMESERIES 
+SELECT max(duration) FROM Transaction WHERE appName = 'FoodMe' 
+SELECT count(*) FROM Transaction FACET http.statusText
+SELECT count(*) FROM Transaction WHERE httpResponseCode != '200'
+```
