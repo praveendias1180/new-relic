@@ -110,3 +110,9 @@ SELECT count(*) FROM PageView WHERE appName ='O11yFoodMe' FACET countryCode,city
 
 https://docs.newrelic.com/docs/synthetics/synthetic-monitoring/scripting-monitors/introduction-scripted-browser-monitors/
 
+# New Relic Certified
+
+![](nr-university.png)
+
+![](verified.png)
+
