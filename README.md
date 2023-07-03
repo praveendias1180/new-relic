@@ -46,5 +46,11 @@ https://o11y-foodme.glitch.me/#/customer
 
 ![](foodme.png)
 
-# New Relic
+# (NRQL) New Relic Query Language
+
+```
+SELECT count(*) FROM Transaction where appName = 'O11yFoodMe'
+```
+
+![](nrql.png)
 
