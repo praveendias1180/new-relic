@@ -95,3 +95,11 @@ self.items.forEach(
     });
 });
 ```
+
+# NR Queries
+
+```
+SELECT count(*) FROM PageView WHERE appName ='O11yFoodMe' FACET countryCode,city SINCE 1 day ago 
+```
+
+![](hello-nr.png)
